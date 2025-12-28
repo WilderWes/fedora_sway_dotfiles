@@ -15,6 +15,18 @@ Author: Weston Preising
 - Download TrueFire appimage, you can download videos locally and play through DAW or other medium
   - appimage requires fuse-libs
 - ytdlp
+- davinci resolve studio
+  - [reddit_link](https://www.reddit.com/r/davinciresolve/comments/1pt8omd/guide_native_davinci_resolve_on_fedora_43/)
+    - cd /opt/resolve/libs
+    - sudo mkdir disabled-libraries
+    - sudo mv libgio*disabled-libraries/
+    - sudo mv libglib* disabled-libraries/
+    - sudo mv libgmodule* disabled-libraries/
+  - also need to install `intel-compute-runtime`
+- fix obs-studio droidcam lag
+  - [linux-audio-setup](https://wiki.linuxaudio.org/wiki/system_configuration)
+  - main change is `realtime-setup` then enabling services and adding user to `realtime` group
+- bitwig flatpak
 
 ## Testing / School Specific
 
