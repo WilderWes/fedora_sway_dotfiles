@@ -26,7 +26,11 @@ Author: Weston Preising
 - fix obs-studio droidcam lag
   - [linux-audio-setup](https://wiki.linuxaudio.org/wiki/system_configuration)
   - main change is `realtime-setup` then enabling services and adding user to `realtime` group
-- bitwig flatpak
+- `BitwigStudio` flatpak
+- `localsend` flatpak
+- `handbrake-gui`
+- workflow
+  - export in Avid DNxHR SQ --> convert to H.264 in HandBrake
 
 ## Testing / School Specific
 
