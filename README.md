@@ -30,8 +30,6 @@ Author: Weston Preising
 - `localsend` flatpak
 - `handbrake-gui`
 - `vlc`
-- workflow
-  - export in Avid DNxHR SQ --> convert to H.264 in HandBrake
 
 ## Testing / School Specific
 
