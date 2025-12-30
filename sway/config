@@ -104,7 +104,7 @@ input type:pointer {
 #
 # Application launchers:
 #
-    bindsym $mod+b exec firefox
+    bindsym $mod+b exec firefox-aurora
     bindsym $mod+p exec 1password
     bindsym $mod+d exec Discord  --enable-features=UseOzonePlatform --ozone-platform=wayland
 
