@@ -1,0 +1,26 @@
+# This file is a part of Fedora configuration for Sway and will be sourced
+# from /usr/bin/start-sway script for all users of the system.
+# User-specific variables should be placed in $XDG_CONFIG_HOME/sway/environment
+#
+# vim: set ft=sh:
+
+## Pass extra arguments to the /usr/bin/sway executable
+
+#SWAY_EXTRA_ARGS="$SWAY_EXTRA_ARGS --unsupported-gpu"
+#SWAY_EXTRA_ARGS="$SWAY_EXTRA_ARGS --debug"
+
+## Set environment variables
+
+# Useful variables for wlroots:
+# https://gitlab.freedesktop.org/wlroots/wlroots/-/blob/master/docs/env_vars.md
+#
+#WLR_NO_HARDWARE_CURSORS=1
+
+# Application compatibility (i.e. this fixes JAVA GUI issues with Wayland)
+_JAVA_AWT_WM_NONREPARENTING=1
+
+# Dark Mode Theming (reddit link https://www.reddit.com/r/hyprland/comments/1h4abmt/how_do_i_apply_dark_theme/)
+QT_QPA_PLATFORMTHEME=qt6ct
+
+# Set Kitty as default terminal
+TERMINAL=/usr/bin/kitty
