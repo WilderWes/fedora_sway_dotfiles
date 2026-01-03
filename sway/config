@@ -4,16 +4,19 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+
+# Set discord variable to force wayland
+set $discord "Discord --enable-features=UseOzonePlatform --ozone-platform=wayland"
+
 ### Autostart Kanshi
 exec kanshi
+exec $discord
 
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 
-# Set discord variable to force wayland
-set $discord "Discord --enable-features=UseOzonePlatform --ozone-platform=wayland"
 
 # Home row direction keys, like vim
 set $left h
