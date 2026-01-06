@@ -21,6 +21,3 @@ _JAVA_AWT_WM_NONREPARENTING=1
 
 # Dark Mode Theming (reddit link https://www.reddit.com/r/hyprland/comments/1h4abmt/how_do_i_apply_dark_theme/)
 QT_QPA_PLATFORMTHEME=qt6ct
-
-# Set Kitty as default terminal
-TERMINAL=/usr/bin/kitty
