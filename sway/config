@@ -6,9 +6,6 @@
 
 ### Autostart Kanshi
 exec kanshi
-exec dropbox
-exec /usr/bin/lxqt-policykit-agent
-exec nm-applet
 
 ### Variables
 #
